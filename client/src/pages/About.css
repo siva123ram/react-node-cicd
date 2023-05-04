@@ -1,0 +1,24 @@
+.about {
+    max-width: 800px;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    text-align: center;
+    
+  }
+  .ab1{
+    background-color: #F5F5F5;
+    height: 800px;;
+  }
+  
+  .about h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  

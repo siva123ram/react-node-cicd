@@ -1,0 +1,21 @@
+.v1{
+    margin-top: 10rem;
+}
+
+.v1 input {
+    width: 50%;
+    margin :1rem  3rem;
+  
+    justify-content: center;
+    display: flex;
+}
+.v1 button{
+    justify-content: center;
+    display: flex;
+    margin: 3rem;
+}
+.v1 label{
+    justify-content:left;
+    display: flex;
+    margin:1rem  3rem;
+}

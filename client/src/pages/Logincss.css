@@ -1,0 +1,23 @@
+.l1{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'YourCustomFont', sans-serif;
+    justify-content: center;
+    display: flex;
+}
+
+.h{
+    
+    text-align: center;
+    font-family: 'YourCustomFont', sans-serif;
+    justify-content: center;
+    display: flex;
+} 
+.p{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'YourCustomFont', sans-serif;
+    justify-content: center;
+    display: flex;
+}
+

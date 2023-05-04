@@ -1,0 +1,48 @@
+   .n{
+    margin-bottom: 5rem;
+   }
+   .ab{
+    margin-top: 2rem;
+    background-color: wheat;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'YourCustomFont', sans-serif;
+   }
+  .ab1{
+    margin-top: 0rem;
+    background-color: wheat;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'YourCustomFont', sans-serif;
+  }
+  .ab2{
+    margin-top: 3rem;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'YourCustomFont', sans-serif;
+    
+  }
+  .ab3{
+    justify-content: right;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'YourCustomFont', sans-serif;
+  }
+  
+  .ab2 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: 'YourCustomFont', sans-serif;
+  }
+  
+  .ab2 p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'YourCustomFont', sans-serif;
+  }
+  
