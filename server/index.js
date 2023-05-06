@@ -12,6 +12,9 @@ const sendverificationurl = require('./routes/send-verification-url');
 const verify = require('./routes/verify');
 const login = require('./routes/login');
 const userInfo = require('./routes/userInfo');
+const path = require('path')
+
+app.use(express.static(path.join(__dirname, '/client/buid')));
 
   console.log('...........') 
 
