@@ -6,7 +6,7 @@ export default function UserVerified(){
   const[employeeList, setEmployeeList] = useState([]);
 
   useLayoutEffect(() => {
-    axios.get('http://localhost:3001/userInfo').then((response)=>{setEmployeeList(response.data); }).catch(error => console.error(error));
+    axios.get('/userInfo').then((response)=>{setEmployeeList(response.data); }).catch(error => console.error(error));
   }, []);
     return(
         <div>

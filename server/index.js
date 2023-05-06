@@ -39,4 +39,4 @@ app.use('/login',login);
 //user Info
 app.use('/userInfo',userInfo);
 
-app.listen(3001, () => console.log('Server running on port 3001'));
+app.listen(5000, () => console.log('Server running on port 5000'));

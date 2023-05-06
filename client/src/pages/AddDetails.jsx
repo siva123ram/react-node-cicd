@@ -38,7 +38,7 @@ export default function AddDetails(){
 
       // submit the form
     
-    axios.post('http://localhost:3001/updateDetails', { 
+    axios.post('/updateDetails', { 
       firstName: sanitizedFirstName, 
       lastName:sanitizedLastName, 
       gender: sanitizedGender, 

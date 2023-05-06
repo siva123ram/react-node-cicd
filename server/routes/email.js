@@ -22,7 +22,7 @@ const transporter = nodemailer.createTransport({
   const sendVerificationEmail = async (email) => {
     const secretKey = 'mySecretKey'; // Replace with your actual secret key
     const token = jwt.sign({ email }, secretKey, { expiresIn: '1h' });
-    const verificationUrl = `http://localhost:3001/verify?token=${token}`;
+    const verificationUrl = `http://localhost:5000/verify?token=${token}`;
      
     // save the token to the database
     const sql = `UPDATE person SET verification_token = ? WHERE email = ?`;

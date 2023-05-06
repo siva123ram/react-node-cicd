@@ -17,7 +17,7 @@ export default function Login(){
   
       // Perform login logic here
       console.log(`email: ${email}, Password: ${password}`);
-      axios.post('http://localhost:3001/login', { 
+      axios.post('/login', { 
        
       email:email,  
       password: password  // send the encrypted password to the server

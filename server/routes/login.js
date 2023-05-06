@@ -32,7 +32,7 @@ const isPasswordMatch = encryptedPassword === hashedPassword;
       if (isPasswordMatch) {
         // Perform any additional logic here, such as redirecting to a new page or setting a state variable to indicate that the user is logged in
         console.log('Login successful!');
-        res.redirect('http://localhost:3000/userVerified');
+        res.redirect('/userVerified');
       } else {
         console.log('Invalid email or password');
         return res.status(600).json({ error: 'Invalid email or password' });

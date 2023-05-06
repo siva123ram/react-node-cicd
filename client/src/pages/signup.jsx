@@ -61,7 +61,7 @@ export default function Signup(){
   //email verification
   const sendVerificationEmail = async (email) => {
     try {
-      const response = await axios.post('http://localhost:3001/send-verification-url', { email });
+      const response = await axios.post('/send-verification-url', { email });
       console.log(response.data.message);
       // show a success message to the user
     } catch (error) {
@@ -110,7 +110,7 @@ export default function Signup(){
 
       // submit the form
     
-    axios.post('http://localhost:3001/create', { 
+    axios.post('/create', { 
       name: sanitizedName, 
       email:sanitizedEmail, 
       mobile: sanitizedMobile, 
