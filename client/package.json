@@ -40,10 +40,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": {
-    "/auth/google": {
-      "target": "localhost:5000"
-    }
   }
+  
 }
