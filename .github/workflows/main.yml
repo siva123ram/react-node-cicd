@@ -2,25 +2,32 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
     runs-on: self-hosted
 
-  steps:
-    - name: Use Node.js ${{matrix.node-version}}
-    - uses: actions/setup-node@v1
-    - with:
-        node-version: ${{matrix.node-version}}
-    - run:
-        npm i
-        cd client
-        npm i
-        npm run build
-        cd ..
-        pm2 stop 0
-        pm2 start 0
-        service nginx restart 
+    steps:
+      - name: Use Node.js ${{matrix.node-version}}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{matrix.node-version}}
+
+      - name: Install dependencies and build
+        run: |
+          npm ci
+          cd client
+          npm ci
+          npm run build
+          cd ..
+
+      - name: Stop and start PM2 process
+        run: |
+          pm2 stop 0
+          pm2 start 0
+
+      - name: Restart NGINX
+        run: sudo service nginx restart
