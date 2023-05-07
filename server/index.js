@@ -14,7 +14,7 @@ const login = require('./routes/login');
 const userInfo = require('./routes/userInfo');
 const path = require('path')
 
-app.use(express.static(path.join(__dirname, '/client/buid')));
+app.use(express.static(path.join(__dirname, '/client/build')));
 
   console.log('...........') 
 
