@@ -1,0 +1,38 @@
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    strategy:
+      matrix:
+        node-version: [14.x] # Add the desired Node.js versions here
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js ${{matrix.node-version}}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{matrix.node-version}}
+
+      - name: Install dependencies and build
+        run: |
+          npm install
+          cd client
+          npm install
+          npm run build
+          cd ..
+          pm2 stop 0
+          pm2 start 0
+          pm2 save
+          sudo service nginx restart
