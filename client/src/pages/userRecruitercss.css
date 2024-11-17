@@ -1,0 +1,33 @@
+
+.r1{
+  background-color: #D3D4D8ff;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'YourCustomFont', sans-serif;
+  padding: 0px;
+  margin-top: 5rem;
+  padding-top: 2rem;
+}
+.r11{
+  text-align: center;
+  justify-content: right;
+}
+.r2{
+  background-color: #D3D4D8ff;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'YourCustomFont', sans-serif;
+  padding: 0px;
+  padding-top: 2rem;
+}
+.r3{
+  background-color: blueviolet;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'YourCustomFont', sans-serif;
+  padding: 0px;
+  padding-top: 2rem;
+}

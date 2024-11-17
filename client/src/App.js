@@ -10,6 +10,14 @@ import AddDetails from './pages/AddDetails';
 import Verification from './pages/Verification';
 import VerifyEmail from './pages/VerifyEmail';
 import UserVerified from './pages/userVerified';
+import UserRecruiter from './pages/userRecruiter';
+import Interview from './pages/Interview';
+import JobOpenings from './pages/jobOpenings';
+import JobPosting from './pages/jobPosting';
+import JobDetails from './pages/jobDetails';
+import JobApply from './pages/jobApply';
+import PhoneNumberForm from './pages/phoneNoForm';
+import OtpForm from './pages/OTPVerification';
 function App() {
   return (
 
@@ -25,7 +33,14 @@ function App() {
           <Route path='/Verification' element={<Verification/>}/>
           <Route path='/verifyEmail' element={<VerifyEmail/>}/>  
           <Route path='/userVerified' element={<UserVerified/>}/>
-          
+          <Route path='/userRecruiter' element={<UserRecruiter/>}/>
+          <Route path='/interview' element={<Interview/>}/>
+          <Route path='/jobOpenings' element={<JobOpenings/>}/>
+          <Route path='/jobPosting' element={<JobPosting/>}/>
+          <Route path="/job/:jobId" element = {<JobDetails/>}/>
+          <Route path="/apply/:jobId" element = {<JobApply/>}/>
+          <Route path='/phoneNoForm' element={<PhoneNumberForm/>}/>
+          <Route path='/otpVerification' element={<OtpForm/>}/>
         </Routes>
       </Router>
   );

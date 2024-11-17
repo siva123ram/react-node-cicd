@@ -1,48 +1,63 @@
-   .n{
-    margin-bottom: 5rem;
-   }
-   .ab{
-    margin-top: 2rem;
-    background-color: wheat;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    font-family: 'YourCustomFont', sans-serif;
-   }
-  .ab1{
-    margin-top: 0rem;
-    background-color: wheat;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    font-family: 'YourCustomFont', sans-serif;
-  }
-  .ab2{
-    margin-top: 3rem;
-    padding: 50px;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    font-family: 'YourCustomFont', sans-serif;
-    
-  }
-  .ab3{
-    justify-content: right;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-family: 'YourCustomFont', sans-serif;
-  }
+.n{
+ 
+  padding: 0px;
+ }
+
+.c1{
   
-  .ab2 h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-    font-family: 'YourCustomFont', sans-serif;
-  }
+  background-color: #D3D4D8ff;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'YourCustomFont', sans-serif;
+  height: 200px;
+  padding: 0px;
+  margin-top: 0rem;
+  padding-top: 2rem;
+}
   
-  .ab2 p {
-    font-size: 24px;
-    margin-bottom: 20px;
-    font-family: 'YourCustomFont', sans-serif;
-  }
+.c2{
+  margin-top: 0rem;
+  padding-top: 6rem;
+  background-color: #D3D4D8ff;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'YourCustomFont', sans-serif;
+  height: auto;
+  width: 100%;
   
+ 
+  
+}
+.c3{
+  
+  padding-top: 5rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'YourCustomFont', sans-serif;
+  height: 400px;
+  background-color:  #4355BCff;
+ 
+ 
+}
+
+.c2 h1 {
+  font-size: 48px;
+  font-family: 'YourCustomFont', sans-serif;
+  padding: 0;
+}
+
+.c11{
+  
+  text-align: center;
+  justify-content: right;
+}
+
+.btn{
+  justify-content: center;
+  width: 150px;
+  display: flex;
+  height: auto;
+}

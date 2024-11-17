@@ -15,7 +15,7 @@ export default function Signup(){
   const [emailError, setEmailError] = useState('');
   const [passwordError, setPasswordError] = useState('');
   const [mobileError, setMobileError] = useState('');
-  const [userType, setUserType] = useState("job seeker");
+  const [userType, setUserType] = useState("recruiter");
 
   
   const validateEmail = (email) => {
@@ -61,7 +61,7 @@ export default function Signup(){
   //email verification
   const sendVerificationEmail = async (email) => {
     try {
-      const response = await axios.post('/send-verification-url', { email });
+      const response = await axios.post('http://localhost:5000/send-verification-url', { email });
       console.log(response.data.message);
       // show a success message to the user
     } catch (error) {
@@ -110,7 +110,7 @@ export default function Signup(){
 
       // submit the form
     
-    axios.post('/create', { 
+    axios.post('http://localhost:5000/create', { 
       name: sanitizedName, 
       email:sanitizedEmail, 
       mobile: sanitizedMobile, 

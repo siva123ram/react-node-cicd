@@ -25,6 +25,7 @@ router.post('/', (req, res) => {
     console.log('Query results:', results);
     if (results.length > 0) {
       return res.status(400).json({ error: 'Email already has an account' });
+      
     }
     
     console.log('no error');

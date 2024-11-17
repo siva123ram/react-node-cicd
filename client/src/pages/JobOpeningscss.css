@@ -1,0 +1,94 @@
+.jp11 {
+    max-width: auto;
+    height: 150px;
+    margin-top: 5rem;
+    padding-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'YourCustomFont', sans-serif;
+    background-color: #4355BCff;
+    
+  }
+
+  .jp11 h1 {
+    font-size: 48px;
+    font-family: 'YourCustomFont', sans-serif;
+  }
+  
+  
+  .container-fluid.jp12 {
+    padding-top: 3rem;
+    
+   
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+   
+    cursor: pointer;
+  }
+  
+  .jp13{
+    justify-content: center;
+    padding-top: 3rem;
+    font-family: 'YourCustomFont', sans-serif;
+  }
+
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    font-family: 'YourCustomFont', sans-serif;
+    
+  }
+  
+  .pagination {
+    display: flex;
+    list-style: none;
+    font-family: 'YourCustomFont', sans-serif;
+    padding: 0;
+
+  }
+  
+  .page-number {
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .page-number.active {
+    background-color: #337ab7;
+    color: #fff;
+  }
+  
+  .page-number:hover {
+    background-color: #ddd;
+  }
+  .btn{
+    
+    justify-content: center;
+    width: 100px;
+    display: flex;
+    
+  }

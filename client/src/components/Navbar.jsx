@@ -1,7 +1,9 @@
 import './Navbarcss.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = (props) => {
+  const { isLoggedIn, handleLogout } = props;
   return (
     <nav className="navbar navbar-expand-lg ">
       <div className="container-fluid">
@@ -50,7 +52,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/">
+                  <a className="dropdown-item" href="/interview">
                     Interview Tips
                   </a>
                 </li>
@@ -156,13 +158,17 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="d-flex">
-            <button className="btn btn-outline-primary me-2" type="button">
-              Find a job
+          {!isLoggedIn ? (
+            <>
+              <Link to="/Login" className='btn btn-outline-primary' type="submit">Hire now</Link>
+              <Link to="/Login" className='btn btn-outline-primary' type="submit">Get a job</Link>
+            </>
+          ) : (
+            <button className="btn btn-outline-danger" type="button" onClick={handleLogout}>
+              Logout
             </button>
-            <button className="btn btn-outline-secondary" type="button">
-              Hire Now
-            </button>
-          </div>
+          )}
+        </div>
         </div>
       </div>
     </nav>

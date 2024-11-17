@@ -1,3 +1,25 @@
 .sp1 label{
-    display: inline-flex;
+    display:inline-flex;
+    margin-left: 1rem;
 }
+
+.sp1 select{
+    margin-left: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 300px;
+  }
+.sp1 {
+    margin-top: 2rem;
+    padding-top: 0.5rem;
+    background-color: white;
+    width: 90%;
+    height: auto;
+  }
+  .sp1 button{
+    display: inline-flex;
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+    
+   
+  }

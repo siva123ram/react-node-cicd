@@ -20,6 +20,7 @@ export default function SearchPage() {
   }
     
   return (
+    <div>
     <div className='container-fluid sp1'>
       <form onSubmit={handleSubmit}>
         <h1>Search candidate database</h1>
@@ -31,7 +32,6 @@ export default function SearchPage() {
           <option value="marketing-manager">Marketing Manager</option>
           <option value="graphic-designer">Graphic Designer</option>
         </select>
-        
         <label htmlFor="city">Select city:</label>
         <select id="city" name="city" value={city} onChange={handleCityChange}>
           <option value="">Select a city</option>
@@ -40,9 +40,9 @@ export default function SearchPage() {
           <option value="chicago">Chicago</option>
           <option value="miami">Miami</option>
         </select>
-        
         <button className='btn btn-outline-primary' type="submit">Search</button>
       </form>
+    </div>
     </div>
   );
 }
