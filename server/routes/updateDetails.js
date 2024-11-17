@@ -21,6 +21,7 @@ router.post('/', (req, res) => {
     const state = req.body.state;
     const country = req.body.country;
     const userId =variables.variable;
+    console.log("user id " + userId);
     // Check if the email already exists in the database
         
       
@@ -34,7 +35,7 @@ router.post('/', (req, res) => {
       }
       console.log('User data saved successfully:', result);
       console.log(gender);
-      //console.log(userId);
+      console.log(userId);
     res.send({ message: 'User data saved successfully', gender});
     
   });

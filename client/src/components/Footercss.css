@@ -1,0 +1,19 @@
+.col img{
+    height: 50px;
+    width: 130px;
+    margin-left: 0rem;
+    border-radius: 65px;
+    border-width: 3px;
+    overflow: hidden;
+    
+
+}
+.f2{
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+.f2 p{
+    font-size: 100px; 
+    margin: auto;
+}

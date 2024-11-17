@@ -6,12 +6,20 @@
     display: flex;
 }
 
-.h{
+.head{
     
     text-align: center;
     font-family: 'YourCustomFont', sans-serif;
     justify-content: center;
     display: flex;
+    margin-top: 10rem;
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 1;
 } 
 .p{
     margin-top: 50px;
@@ -19,5 +27,12 @@
     font-family: 'YourCustomFont', sans-serif;
     justify-content: center;
     display: flex;
+}
+
+.l1 button{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 

@@ -9,7 +9,7 @@ export default function Verification(){
     e.preventDefault();
 
     try {
-      const response = await axios.post('/send-verification-url',  {email: email} );
+      const response = await axios.post('http://localhost:5000/send-verification-url',  {email: email} );
       console.log(response.data.message);
       // show a success message to the user
     } catch (error) {

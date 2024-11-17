@@ -1,0 +1,19 @@
+/* Style for the container with class 'P' */
+.P {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the content horizontally and vertically */
+}
+
+/* Style for the container with class 'P1' */
+.P1 {
+    margin-left: 50px; /* Adjust margin-left as needed */
+}
+
+/* Style for the input field inside the container with class 'P1' */
+.P1 input {
+    width: 300px;
+}
+
+/* Style for the submit button */

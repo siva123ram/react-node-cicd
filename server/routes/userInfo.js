@@ -20,7 +20,7 @@ router.get('/', (req, res) => {
     console.log('no error');
     
     // Get the user's data from  the database here
-    const sql = `SELECT name, email,age,country,id FROM person WHERE email = ?`;
+    const sql = `SELECT name, email,age,country,id,userType FROM person WHERE email = ?`;
     connection.query(sql,[emailLogin], (err, result) => {
       if (err) {
         console.error('Error saving user data:', err);

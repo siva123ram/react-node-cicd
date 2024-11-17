@@ -1,0 +1,36 @@
+.it1{
+  max-width: auto;
+  height: 150px;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  text-align: center;
+  font-family: 'YourCustomFont', sans-serif;
+  background-color: #4355BCff;
+  padding-top: 4rem;
+ 
+}
+.it2{
+  justify-content: center;
+    font-family: 'YourCustomFont', sans-serif;
+    font-size: 20px;
+    background-color: #D3D3D9ff;
+    align-items: center;
+    height: auto;
+}
+
+.it3{
+  background-color: #4355BCff;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'YourCustomFont', sans-serif;
+  padding: 0px;
+  padding-top: 2rem;
+  margin-top: 0;
+}
+.it2 p{
+  margin-bottom: 0px;
+  padding-bottom: 2rem;
+}

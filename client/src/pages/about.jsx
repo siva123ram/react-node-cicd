@@ -12,9 +12,7 @@ export default function About(){
       <p>Our team is made up of experienced professionals who are passionate about what we do.</p>
       <p>Thank you for choosing us!</p>
     </div>
-            </div> 
-         
-        
-        </div>
+    </div> 
+    </div>
     )
 }

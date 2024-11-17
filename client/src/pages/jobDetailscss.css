@@ -1,0 +1,38 @@
+.jd1{
+    max-width: auto;
+    height: 150px;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    text-align: center;
+    font-family: 'YourCustomFont', sans-serif;
+    background-color: #4355BCff;
+   
+}
+.jd2{
+    justify-content: center;
+    font-family: 'YourCustomFont', sans-serif;
+    background-color: #D3D3D9ff;
+    align-items: center;
+    display: flex;
+    height: 500px; 
+    padding: 0;
+}
+.jd2 p{
+    font-size: large;
+}
+.btn{
+    justify-content: center;
+    width: 150px;
+    display: flex;
+}
+
+.jd3{
+   background-color: white;
+   padding: 3rem;
+}
+
+   
+    
+    
